@@ -1,0 +1,417 @@
+img, iframe {
+  border: 0;
+}
+
+ifram {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.top-bar, .top-bar ul {
+    background-color: black;
+    }
+body {
+  background-color: #283038;
+  margin: 0;
+}
+p {
+  color: white;
+}
+.columns>a {
+  padding-top: 100px;
+}
+.teal {
+  color: #008080;
+}
+
+.row {
+  max-width:none!important;
+}
+
+
+#logo{width:30px!important;}
+
+#nav{position: fixed;
+     z-index: 10;
+     width:100%;
+     padding: 0;
+}
+
+p{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.25em;
+  font-weight:500;
+  color: #334350;
+  line-height: 1.6em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    color:#0784b4;
+    margin-bottom: 0.5em;
+}
+
+h3{
+  font-family: 'Cinzel', serif;
+  font-size: 1.625em;
+  font-weight: bold;
+  color:#ffffff;
+  margin-bottom: 0.5em;
+}
+h4 {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #95B3D1;
+  font-size: 1.6em;
+  border: 1px solid red;
+  background-image: url(http://placekitten.com/300/300);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width:30%;
+  height:100px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+};
+h6 {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #95B3D1;
+  font-style: italic;
+}
+ {
+  font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+
+.columns>a {
+  padding-top: 100px;
+}
+.background {
+  max-width: 1000px;
+  min-height: 400px;
+  background-color: black;
+  background-image: url("../img/bg1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+
+/* Begin Elsie*/
+.columnsContainer {
+  position: relative; margin: 3em;
+}
+
+.leftColumn, .rightColumn {
+  border: 1px;
+  padding: 1.25em;
+}
+
+.leftColumn {
+  margin-bottom: .5em;
+}
+
+
+  ul.sub-column {
+    list-style: none;
+  	padding: 0;
+  	margin: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  	display: flex;
+    flex-wrap: wrap;
+  }
+
+
+li.sub-column {
+	height: 350px;
+	width: 50%;
+  min-width: 500px;
+	margin: 0;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+	display: flex;
+  flex-wrap: wrap;
+	background-color: #888888;
+	}
+  .module{
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+  url(../img/events.jpg);
+background-size: cover;
+margin: 10px 0 0 0;
+position: relative;
+float: left;
+}
+
+.module1{
+background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ),
+  url(../img/beers.jpg);
+background-size: cover;
+margin: 10px 0 0 0;
+position: relative;
+float: left;
+}
+
+
+
+.mid h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.625em;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a.whitelink{
+  color:#ffffff
+}
+
+.main-footer {
+	text-align: center;
+	padding-top: 2em;
+  padding-bottom: 1em;
+	background: #283038;
+}
+
+ul.social-icons {
+    width:100%;
+text-align:center;
+margin: 0 0 0 0 ;
+}
+.social-icons li {
+    float:none;
+display:inline-block;
+}
+
+#cc{
+  color:#ffffff;
+  font-size: 1.1em;
+}
+
+
+/* ---- media quaries ----*/
+@media screen and (min-width: 47.5em ) {
+  .leftColumn { margin-right: 23em; }
+
+	.rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }
+}
+
+@media screen and (max-width:63.375em) {
+  li.sub-column{ width: 100%;}
+}
+ul.topnav li.right,
+    ul.topnav li {float: none;}
+
+
+/*End Elsie*/
+
+
+
+/*From Travis main.css*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: none;
+  max-height: 600px;
+  position: relative;
+  margin: auto;
+  overflow:hidden;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin:	2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*CSS FOR COLLAPSIBLE BEER MENU*/
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block;
+}
+
+/*Adjustment code for "The Bistro" in nav bar*/
+.menu-text {
+  font-weight: bold;
+  font-size: 125%;
+  color: #2199e8;
+  line-height: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding: 0.7rem 1rem; }
+
+  /*iCal Resizing Properties*/
+  .responsiveCal {
+
+  position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+
+  }
+
+  .responsiveCal iframe {
+
+  position: absolute; top:0; left: 0; width: 100%; height: 100%;
+
+  }
+  a {
+    color: #09a6e3;
+    text-decoration: none;
+    line-height: inherit;
+    cursor: pointer;
+    font-family: 'Alegreya Sans';
+  }
+
+    .is-active a:hover {
+      color: #09a6e3; }
+    }
+#panel1, #panel2, #panel3 {
+  font-family: 'Alegreya Sans', sans-serif;
+  background: black;
+}
+#panel1-label, #panel2-label, #panel3-label {
+  font-size: 125%;
+}
+.tabs-content {
+  background-color: #283038;
+  border-color: #283038;
+}
+.tabs {
+  margin: 0;
+  list-style-type: none;
+  background-color: black;
+  border: transparent;
+  width: 100%;
+  }
+li.is-accordion-submenu-parent {
+  color: #95B3D1;
+}
+
+
+.tabs.simple > li > a {
+  padding: 0; }
+  .tabs.simple > li > a:hover {
+    background: transparent; }
+
+    .tabs-title {
+      float: left; }
+      .tabs-title > a {
+        display: block;
+        padding: 1.25rem 1.5rem;
+        line-height: 1;
+        font-size: 0.75rem; }
+        .tabs-title > a:hover {
+          background: #1c2127; }
+        .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+          background: #283038; }
